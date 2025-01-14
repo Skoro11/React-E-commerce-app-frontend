@@ -18,10 +18,10 @@ import LoginForm from './Admin/Login.js';
 function App() {
 
 
-  const [responseMessage, setResponseMessage] = useState('');
+/*   const [responseMessage, setResponseMessage] = useState(''); */
 
   // Function to handle the POST request
-  const handlePostRequest = () => {
+/*   const handlePostRequest = () => {
     // Make a POST request to the Spring Boot server
     axios.post('http://localhost:8080/')
       .then(response => {
@@ -31,7 +31,7 @@ function App() {
         console.error('There was an error making the POST request:', error);
       });
   };
-
+ */
   return (
 
      <Router>

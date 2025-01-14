@@ -11,6 +11,7 @@ const CountdownClock = () => {
   // Define the end date and time for the countdown
   const targetDate = new Date("2025-01-10T23:00:00"); // Example target date (end of the year)
 
+ 
   // Function to update the countdown every second
   useEffect(() => {
     const intervalId = setInterval(() => {
