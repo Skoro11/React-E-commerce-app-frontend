@@ -1,0 +1,244 @@
+body{
+    text-align: left;
+}
+h1,h2,h3,h4,h5,h6{
+    padding:0;
+    margin:0;
+}
+.border{
+    padding: 100px 30px 50px 30px;
+    margin-inline:auto;
+    max-width:1170px;
+    border-bottom:1px solid #02020226;
+}
+.flash__description{
+    display:flex;
+    align-items:center;
+}
+
+.flash__description .orange__color{
+    border-radius:5px;
+    margin-right:10px;
+    height:40px;
+    width:20px;
+    background-color:#DB4444;
+}
+.orange__color__text{
+    color:#DB4444;
+
+}
+.left__align{
+    text-align: left;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:3%;
+}
+.left-align h1{
+    padding:50px;
+}
+/* Clock styles */
+
+.flexed__countdown{
+    display:flex;
+    flex-direction: column;
+    margin-left:-30%;
+}
+
+.day_desc{
+    font-size:12px;
+    padding-inline:18px 5px;
+    font-weight:bold;
+}
+.desc__number{
+    font-size:32px;
+    font-weight: bold;
+    padding-inline:13px 0;
+}
+.first__num{
+    padding-left:10%;
+}
+.dots{
+    font-size:2.5rem;
+    color: #DB4444;
+}
+.desc__under{
+    margin-top:-11px;
+}
+
+/* Arrows */
+
+.arrow{
+    margin-inline:5px;
+    height:17px;
+    padding:12px;
+    border-radius:22px;
+    background-color: #f5f5f5;
+}
+.arrow:hover{
+    opacity:30%;
+    cursor: pointer;
+}
+.__left{
+    rotate:180deg;
+}
+
+
+/* Carousel */
+
+.carousel{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.carousel__item{
+    position:relative;
+}
+.sale__percentage{
+
+    display: flex;
+    color: white;
+    padding: 4px 15px;
+    align-items: center;
+    margin-top: revert;
+    margin-inline: auto;
+    border-radius: 7px;
+    font-size: 12px;
+    top: 7%;
+    left: 6%;
+    position: absolute;
+    background-color: red;
+}
+
+.background{
+    position: absolute;
+    top: 6%;
+    right: 7%;
+    display: flex;
+    background: white;
+    padding: 1.5%;
+    border-radius: 27px;
+}
+.heart{
+    width:24px;
+    height:24px;
+}
+.heart__path:hover{
+    fill:#FF0000;
+    cursor:pointer;
+}
+svg{
+    padding:0;
+}
+.eye__bg{
+    top:17%;
+}
+.eye__bg:hover{
+    opacity: 30%;
+    cursor:pointer;
+}
+
+/* Product description */
+
+.product__description{
+    text-align:left;
+    
+}
+.discount{
+    color:red;
+    font-weight:bold;
+    padding-right:5%;
+}
+.crossed,.opacity__feedback{
+    font-weight:bold;
+    opacity:50%;
+}
+.padding__description{
+    padding: 4% 0;
+}
+
+/* Button */
+.all__products__btn{
+    margin-top: 5%;
+    padding: 1.5% 5%;
+    border-radius: 7px;
+    background-color: #DB4444;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+.all__products__btn:hover{
+    opacity:50%;
+    cursor:pointer;
+}
+
+/* Cart  */
+
+
+.carousel__item:hover .cart__popup{
+    opacity:1;
+}
+.carousel__item:hover{
+    cursor:pointer;
+}
+.cart__popup{
+    position: absolute;
+    bottom: 34%;
+    right: 0%;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-top: 4%;
+    height: 9%;
+    opacity:0;
+    transition: opacity 0.5s ease;
+}
+.cart__popup:hover{
+    visibility: visible;
+    opacity:1;
+    cursor:pointer;
+}
+
+/* Categories*/
+
+.category{
+    display:flex;
+    justify-content: space-between;
+}
+.category__svg{
+    margin-inline:auto;
+    margin-top:13%;
+}
+.category__item{
+
+    position:relative;
+    width: 170px;
+    height: 145px;
+    border:1px solid #02020226;
+    border-radius:5px;
+    transition:0.5s ease-in-out;
+}
+.category__item:hover {
+    background-color:#DB4444;
+}
+.category__item:hover .stroked{
+    stroke:white;
+}
+.stroked{
+    stroke:black;
+    transition:0.5s ease-in-out;
+    fill: transparent;
+}
+.categories__description{
+    color:black;
+    transition:0.5s ease-in-out;
+}
+.category__item:hover .categories__description{
+    color:white;
+}
+
+/* Customized button BestSellProducts */
+.customized{
+    height:45px;
+    width:120px;
+}
