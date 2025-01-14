@@ -1,6 +1,6 @@
 
-import React ,{useState} from 'react';
-import axios from "axios";
+import React /* ,{useState} */ from 'react';
+/* import axios from "axios"; */
 
 import './App.css';
 import Navbar from './Navbar/Navbar.js';  // Import the Navbar component
@@ -18,10 +18,10 @@ import LoginForm from './Admin/Login.js';
 function App() {
 
 
-/*   const [responseMessage, setResponseMessage] = useState(''); */
+  /* const [responseMessage, setResponseMessage] = useState('');
 
   // Function to handle the POST request
-/*   const handlePostRequest = () => {
+  const handlePostRequest = () => {
     // Make a POST request to the Spring Boot server
     axios.post('http://localhost:8080/')
       .then(response => {

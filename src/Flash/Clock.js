@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React/* , { useState, useEffect } */ from "react";
 
 const CountdownClock = () => {
-  const [timeRemaining, setTimeRemaining] = useState({
+ /*  const [timeRemaining, setTimeRemaining] = useState({
     days: 0,
     hours: 0,
     minutes: 0,
@@ -43,7 +43,7 @@ const CountdownClock = () => {
     // Cleanup interval on component unmount
     return () => clearInterval(intervalId);
   }, [targetDate]);
-
+ */
   return (
       <div className="flexed__countdown">
 
@@ -57,13 +57,13 @@ const CountdownClock = () => {
         </div>
 
         <div className="desc__under">
-            <span className="desc__number first__num">{timeRemaining.days} </span>
+            {/* <span className="desc__number first__num">{timeRemaining.days} </span>
                     <span className="dots">:</span>
             <span className="desc__number">{timeRemaining.hours} </span>
                     <span className="dots">:</span>
             <span className="desc__number">{timeRemaining.minutes} </span>
                     <span className="dots">:</span>
-            <span className="desc__number">{timeRemaining.seconds} </span>
+            <span className="desc__number">{timeRemaining.seconds} </span> */}
 
         </div>
       </div>
