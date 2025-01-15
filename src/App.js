@@ -23,7 +23,7 @@ function App() {
   // Function to handle the POST request
   const handlePostRequest = () => {
     // Make a POST request to the Spring Boot server
-    axios.post('http://localhost:8080/')
+    axios.post('https://e-commerce-app-backend-vert.vercel.app/')
       .then(response => {
         setResponseMessage(response.data); // Set the response message from the backend
       })
